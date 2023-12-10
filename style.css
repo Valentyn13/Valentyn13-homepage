@@ -276,7 +276,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .skill__container-secondary {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   .skill__block {
+    padding: 5px;
     font-size: 18x;
     display: flex;
     flex-direction: column;
@@ -417,6 +422,9 @@ justify-content: center;
   /* transform:rotate(25deg) */
   animation: animate 0.1s linear forwards;
 }
+.skills__details {
+  margin-top: 70px;
+}
 @keyframes animate {
   to {
     opacity:  1;
@@ -486,7 +494,7 @@ justify-content: center;
       margin-bottom: 40px;
     }
     .skill__block-list li {
-      width: 100px;
+      width: 100%;
     }
     .portfolio__item {
       flex-basis: 80%;
